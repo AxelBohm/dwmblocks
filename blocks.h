@@ -12,7 +12,7 @@ static const Block blocks[] = {
 	/* {" ", "~/bin/statusbar/cpu",				1,		10}, */
 	{" ", "~/bin/statusbar/memory",				1,		0},
 	{" ", "~/bin/statusbar/temp",			5,		0},
-	{" ", "date +'%a %b %d, %R'",				1,		0},
+	{" ", "~/bin/statusbar/date.sh",				1,		0},
 	/* {"🧠", "free -m | awk 'FNR==2{ printf "%.0f%\n", $3*100/$2 }'",	30,		0}, */
 	/* {"", "cat ~/.pacupdate | sed /📦0/d",					0,		9}, */
 };
